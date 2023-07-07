@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* navbar Related Style*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;margin: 0 200px;
+}
+.nav-logo{
+    color: #181818;
+    font-size: 45px; 
+    padding: 20px 0 0 0;
+}
+.r-color{
+    color: #FD6E0A
+}
+.button-style{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    border: 0;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+    padding: 50px 0 0 0;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    color: #474747;
+}
+
+/* Header Related Style */
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-picture{
+    width: 500px;
+}
+.banner-greeting{
+    font-size: 35px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-name{
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-discription{
+    margin: 70px 0;
+    width: 550px;
+}
+
+/* Main Section  style*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Section Style */
+.about{
+    padding: 135px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 190px 0;
+}
+.about-tittle{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-size: larger;
+}
+.about-info{
+    text-align: center;   
+}
+.info-title{
+    opacity: .4;
+    margin-bottom: 20px;
+}
+.info-description{
+    font-weight: 800;
+}
