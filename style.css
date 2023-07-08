@@ -185,6 +185,13 @@ footer{
 .left-footer .logo{
     
     text-align: center;
+   
+}
+.left-footer .logo img{
+    
+    text-align: center;
+    margin: auto;
+    margin-right: 40px;
 }
 .right-footer{
     width: 500px;
