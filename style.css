@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Kablammo', cursive;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -81,17 +80,19 @@ nav li a{
 }
 
 /* Main Section  style*/
+
 main{
     max-width: 1140px;
     margin: 0 auto;
 }
 
 /* About Section Style */
+
 .about{
-    padding: 135px;
+    padding: 77px;
     border-radius: 10px;
     background-color: #FFF8F3;
-    margin: 190px 0;
+    margin: 120px 0;
 }
 .about-tittle{
     color: #181818;
@@ -120,4 +121,38 @@ main{
 }
 .info-description{
     font-weight: 800;
+}
+/* what I Do Section Style */
+#what-i-do-section{
+    padding: 30px 30px;
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    margin: 50px 0px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+}
+.skill{
+    height: 280px;
+    width: 200px;
+    border: 1px solid #eae5e1;
+    padding: 20px;
+    box-shadow: 10px 10px 10px;
+}
+.skill-title{
+    text-align: center;
+    margin: 10px 0;
+}
+.skill-discription{
+    text-align: center;
+    margin: 10px 0;
+    color: #757575;
 }
