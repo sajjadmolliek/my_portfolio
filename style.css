@@ -26,7 +26,7 @@ nav {
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding: 15px 35px;
+    padding: 15px 15px;
     border: 0;
 }
 nav>ul{
@@ -146,7 +146,7 @@ main{
     width: 200px;
     border: 1px solid #eae5e1;
     padding: 20px;
-    box-shadow: 10px 10px 10px;
+    box-shadow: 5px 5px 5px;
 }
 .skill-title{
     text-align: center;
@@ -157,6 +157,58 @@ main{
     margin: 10px 0;
     color: #757575;
 }
+
+/* Summary Section Style Start */
+
+.div-summary{
+    display: flex;
+    justify-content: space-between;
+}
+.sumarry{
+    margin: 120px 16px;
+}
+.sumarry>h1{
+    text-align: center;
+    font-size: 40px;
+}
+.education >h1{
+    font-size: 30px;
+    margin-top: 80px;
+}
+.details{
+    width:500px;
+    line-height: 30px;
+    
+    
+}
+.details h1{
+    font-size: 26px;
+    margin-top: 40px;
+    
+}
+.details h3{
+    margin: 20px 0;
+    opacity: .5;
+}
+.details p{
+    margin: 20px 0;
+    opacity: .5;
+}
+.bttn{
+    text-align: center;
+    margin-top: 80px;
+}
+.button-style-summary{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 15px;
+    border: 0;
+}
+
+
 /* Footer section Style */
 footer{
    
