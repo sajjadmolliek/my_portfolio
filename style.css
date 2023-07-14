@@ -61,7 +61,6 @@ nav li a{
 }
 .profile-picture{
     width: 500px;
-    margin-bottom: 0;
 }
 .banner-greeting{
     font-size: 35px;
@@ -248,7 +247,276 @@ footer{
 .right-footer{
     width: 500px;
 }
+.right-footer textarea{
+    width: 500px;
+    margin: 20px 0;
+    padding: 10px;
+}
+.right-footer input{
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+}
 .right-footer h1{
     margin: 100px 0 30px 0;
     font-size: 40px;
+}
+
+
+
+
+
+/* responsive For Mobile */
+
+@media screen and (max-width:576px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 200px;
+        flex-direction: column;
+    }
+    nav li {
+        margin-right: 20px;
+    }
+    .res_bttn{
+        width: 150px;
+        margin-left: 50px;
+    }
+    
+    /* Header Related Style */
+    
+    .header{
+        background-color: #FFF8F3;
+        height: 850px;
+        background-image: none;
+        padding: 0px;
+    }
+    .profile-picture{
+        width: 100%;
+        margin-top: 130px;
+        margin-left: -25px;
+    }
+    .banner{
+        
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+    }
+    .banner-discription{
+        width: 90%;
+    }
+    .margin_div{
+        margin-top: 100px;
+        margin-left: 25px;
+    }
+
+    /* Finished Head Section */
+
+
+
+
+
+
+
+
+    /* Start Main Section */
+
+    /* about section */
+    .about{
+        margin-top: 627px;
+    }
+    .about-info-container {
+        justify-content: center;
+        flex-direction: column;
+    }
+    /* about section End */
+
+
+
+
+    /* Skill Section Start */
+
+    .skills-container {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Skill Section End */
+
+
+
+    /* Start Summary Section */
+    .div-summary {
+        flex-direction: column;
+    }
+
+    .details{
+        width:95vw;
+        line-height: 30px;
+    }
+    /* Start Summary Section */
+
+
+
+
+
+    /* Footer Section Start */
+   
+    .foot-section{
+        flex-direction: column;
+    }
+    .left-footer{
+        width: 100vw; 
+    }
+    .right-footer{
+        width: 100vw;
+    }
+    .right-footer textarea{
+        width: 90vw;
+    }
+    .right-footer input{
+        width: 90vw;
+    }
+    /* Footer Section End */
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive For Tablet */
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:962px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 200px;
+        flex-direction: column;
+    }
+    nav li {
+        margin-right: 20px;
+    }
+    .res_bttn{
+        width: 150px;
+        margin-left: 50px;
+    }
+    
+    /* Header Related Style */
+    
+    .header{
+        background-color: #fcd3b5;
+        height: 850px;
+        background-image: none;
+        padding: 0px;
+    }
+    .profile-picture{
+        width: 100%;
+        margin-top: 200px;
+        margin-left: -25px;
+    }
+    .banner{
+        
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+    }
+    .banner-discription{
+        width: 90%;
+    }
+    .margin_div{
+        margin-top: 100px;
+        margin-left: 25px;
+    }
+
+    /* Finished Head Section */
+
+
+
+
+
+
+
+
+    /* Start Main Section */
+
+
+     /* about section Start */
+     .about{
+        margin-top: 800px;
+    }
+    .about-info-container {
+        justify-content: center;
+        flex-direction: column;
+    }
+    /* about section Finish */
+
+    
+    /* Skill Section Start */
+
+    .skills-container {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Skill Section End */
+
+
+
+
+
+    /* Start Summary Section */
+    .div-summary {
+        flex-direction: column;
+    }
+
+    .details{
+        width:95vw;
+        line-height: 30px;
+    }
+    /* Start Summary Section */
+ 
+    
+
+    /* Footer Section Start */
+   
+    .foot-section{
+        flex-direction: column;
+    }
+    .left-footer{
+        width: 100vw; 
+    }
+    .right-footer{
+        width: 100vw;
+    }
+    .right-footer textarea{
+        width: 90vw;
+    }
+    .right-footer input{
+        width: 90vw;
+    }
+    /* Footer Section End */
+
 }
